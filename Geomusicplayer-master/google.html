@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 95%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      #NavBar {
+        height: 50px;
+        width: 100%;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 21% 25% 25% 25%;
+        position: relative;
+      }
+
+      #ChanceCol {
+        grid-column: 2;
+        position: relative;
+      }
+
+      #ChanceImg {
+        height: 50px;
+        width: 50px;
+        right: 0px;
+        position: absolute;
+      }
+
+      #MusicologyContainer {
+        grid-column: 3;
+        color: white;
+        position: absolute;
+        top: 7px;
+      }
+
+      #M {
+        color: green;
+        font-size: 30px;
+        vertical-align: middle;
+      }
+
+      #U {
+        color: green;
+        font-size: 30px;
+        top: 40px;
+        vertical-align: middle;
+
+      }
+
+      #S {
+        color: green;
+        font-size: 30px;
+        top: 40px;
+        vertical-align: middle;
+      }
+
+      #I {
+        color: green;
+        font-size: 30px;
+        top: 40px;
+        vertical-align: middle;
+
+      }
+
+      #C {
+        color: green;
+        font-size: 30px;
+        top: 40px;
+        vertical-align: middle;
+      }
+
+
+      #O {
+        color: green;
+        font-size: 30px;
+        top: 40px;
+        vertical-align: middle;
+      }
+
+
+      #L {
+        color: green;
+        font-size: 30px;
+        top: 40px;
+        vertical-align: middle;
+      }
+
+
+      #O2 {
+        color: green;
+        font-size: 30px;
+        top: 40px;
+        vertical-align: middle;
+      }
+
+
+      #G {
+        color: green;
+        font-size: 30px;
+        top: 40px;
+        vertical-align: middle;
+      }
+
+
+      #Y {
+        color: green;
+        font-size: 30px;
+        top: 40px;
+        vertical-align: middle;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- <script async src="https://cse.google.com/cse.js?cx=012941610575063822394:caovtwxrkrm"></script>
+<div class="gcse-search"></div> -->
+      <div id="NavBar"><div id="ChanceCol"><img id="ChanceImg" src="Chance.png" /></div><div id="MusicologyContainer"><span id="M">M</span><span id="U">U</span><span id="S">S</span><span id="I">I</span><span id="C">C</span><span id="O">O</span><span id="L">L</span><span id="O2">O</span><span id="G">G</span><span id="Y">Y</span></div></div>
+        <div id="map" style="z-index: 5;">
+            <div id="menu"><select><option>Rap</option><option>Rock</option><option>Blues</option></select></div>
+        </div>
+    <script src="./google.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+    google.load("maps", "3",{other_params:"sensor=false"});
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=API_KEY_HERE&callback=initMap"
+    async defer></script>
+  </body>
+  
+</html>
